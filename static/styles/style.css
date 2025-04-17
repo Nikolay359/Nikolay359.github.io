@@ -1,0 +1,424 @@
+body {
+    background-color: #D7DBC6;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* контент */
+.a1 {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 42px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.a2 {
+    text-align: center;
+    display: block;
+}
+
+.content {
+    width: 99%;
+    border: 2px solid;
+    display: flex;
+    float: left;
+    margin-top: 30px;
+    margin: 5px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 25px;
+}
+
+.content>div {
+    padding: 5px;
+    border: 1px solid;
+}
+
+.text-content {
+    text-align: start;
+    font-size: px;
+    line-height: 70px;
+}
+
+.text-content>span {
+    display: inline-block;
+    text-align: left;
+    font-size: 28px;
+}
+
+
+
+.selectoin {
+    position: relative;
+    display: inline-block;
+    padding-top: 56px;
+    width: 100%;
+    height: 0;
+}
+
+.a3 {
+    float: right;
+    margin: 5px;
+}
+
+
+.a4 {
+    display: inline-block;
+    background-color: #2E9EAB;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 4px;
+    margin-top: 30px;
+    width: 98%;
+    padding: 5px 6px 5px 6px;
+    font-family: sans-serif;
+}
+
+
+
+/* навигационная панель */
+
+.page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-conteiner {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #beb298;
+    padding-top: 20px;
+    height: 100%;
+    padding-right: 5px;
+    overflow: auto;
+}
+
+.main {
+    margin-left: 230px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+.nav-conteiner>h2 {
+    padding-top: 5px;
+    font-size: 21px;
+    padding-left: 16px;
+}
+
+.nav-conteiner>ul>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border-bottom: 3px solid;
+
+}
+
+.nav-conteiner a:hover {
+    color: #fffffffb;
+}
+
+/* контент: основы маникюра */
+
+.former {
+    display: block;
+    border: 3px solid;
+    border-radius: 30px;
+    background-color: #F4A460;
+    margin: 5px;
+    padding: 5px;
+    width: 98%;
+    font-family: sans-serif;
+    margin-top: 1%;
+}
+
+
+.former>span {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/* Контент (Инструменты и оборудование для маникюра) */
+
+.content-former {
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+/* санитария и гигиена */
+
+.content-former2 {
+    text-align: center;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color: #818181da;
+}
+
+
+.text-former2>p {
+    font-size: 27px;
+}
+
+.text-former-web2 {
+    border: 2px solid;
+    background-color: #b8b8b8;
+    padding: 8px;
+}
+
+.text-former-web2s {
+    border: 2px solid;
+    background-color: #b8b8b8;
+    padding: 8px;
+}
+
+.text-former2d {
+    border: 2px solid;
+    background-color: #b8b8b8;
+    padding: 8px;
+}
+
+.text-former2s {
+    border: 2px solid;
+    background-color: #b8b8b8;
+    padding: 8px;
+}
+
+.text-former2a {
+    border: 2px solid;
+    background-color: #b8b8b8;
+    padding: 8px;
+}
+
+
+/* Этика и профессионализм */
+
+.cont-former3 {
+    background-color: #dce2c0;
+}
+
+.content-former3 {
+    display: flex;
+    padding: 6px;
+    box-shadow: 2%;
+    border: 2px solid;
+}
+
+.border-former3 {
+    border: 2px solid;
+    background-color: #9b9a9a;
+}
+
+.text-former3 {
+    margin-top: 40px;
+}
+
+
+/*Уход за ногтями */
+
+.aformer {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 55px;
+}
+
+
+/* Обрезка и формирование ногтей */
+
+.aformer2 {
+    border: 2px solid;
+    background-color: #818181;
+
+}
+
+
+/* полировка и шлифовка ногтей */
+
+.aformer3 {
+    text-decoration: none;
+    font-family: none;
+    font-size: 28px;
+}
+
+/* Увлажнение и массаж рук */
+
+
+.aformer4 {
+    margin: 5px;
+    line-height: 0.8;
+    margin-top: 20px;
+}
+
+
+/* Mодуль 3: Базовые техники нанесения лака */
+
+.aformer5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.content-former5 {
+    border: 2px solid;
+    padding: 6px;
+    background-color: #b8b8b8;
+    margin-left: 2px;
+}
+
+.aformer5>p>span {
+    color: brown;
+    font-size: 35px;
+}
+
+
+/* Нанесение базового покрытия */
+
+.content-former6 {
+    border: 2px solid;
+    border-radius: 8px 30px 8px 30px;
+    padding: 6px;
+}
+
+.content-former6>ul>li {
+    padding-top: 4px;
+}
+
+.img-former6 {
+    display: flex;
+    margin: 6px;
+    border-top: 2px solid;
+}
+
+/* Нанесение цветного лака*/
+
+.cap2 {
+    color: black;
+    padding-top: 6px;
+}
+
+.cap2>ul {
+    border-top: 3px solid;
+}
+
+/* Нанесение верхнего покрытия */
+.pap {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 6px;
+}
+
+
+
+/* Модуль 4: Уход за проблемными ногтями */
+
+/* Хрупкие и ломкие ногти */
+
+.ronaldo {
+    border: 2px solid;
+    padding: 5px;
+    background-color: #9b9a9a;
+}
+
+.ronaldo span {
+    color: rgb(187, 12, 12);
+}
+
+/* Расслоение ногтей */
+.ronaldo2 {
+    margin-top: 40px;
+    border-top: 2px solid;
+}
+
+.ronaldo2 span {
+    color: rgb(187, 12, 12);
+}
+
+/* Грибок ногтей */
+
+.sol {
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+}
+
+
+/* Модуль 5: Дизайн ногтей */
+/* все дизайны*/
+.content-conteiner4 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    border-top: 2px solid;
+}
+
+.content-conteiner4>p {
+    margin-left: 20px;
+}
+
+.text-conteiner4 span {
+    color: red;
+    padding-top: 10px;
+}
+
+
+/* Модуль 6: Бизнес-аспекты маникюра */
+
+.topc {
+    border: 2px solid;
+    margin: 7px;
+    padding: 7px;
+}
+
+.topc span {
+    font-size: 30px;
+    color: red;
+}
+
+/* Управление клиентами */
+
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.con-article {
+    border: 2px solid;
+    padding: 10px;
+}
+
+.con-article span {
+    color: rgb(0, 72, 255);
+    font-size: 35px;
+}
+
+.content-article {
+    border: 2px solid;
+    margin-left: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.content-article span {
+    color: rgb(52, 110, 255);
+    font-size: 35px;
+}
